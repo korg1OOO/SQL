@@ -6,7 +6,7 @@ create table medico(
 codMed int primary key,
 nomeMed varchar(40) not null,
 dataNasc date not null,
-cpf char(11),
+cpf char(11) not null,
 cidade varchar(30) not null,
 especialidade varchar(30) not null
 );
