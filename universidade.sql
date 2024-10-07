@@ -24,3 +24,6 @@ primary key(codProf, codDisc),
 foreign key(codProf) references professor(codProf),
 foreign key(codDisc) references disciplina(codDisc)
 );
+
+alter table professor add formacao varchar(30);
+alter table disciplina add ementa varchar(100);
