@@ -22,8 +22,8 @@ create table filme (
 );
 
 create table personagem (
-	codAtor varchar(3) not null,
 	codFilme varchar(3) not null,
+	codAtor varchar(3) not null,
     personagem varchar(40) not null,
     cache int(15) not null,
     primary key(codAtor, codFilme),
